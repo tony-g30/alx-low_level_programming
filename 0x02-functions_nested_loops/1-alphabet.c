@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 void print_alphabet(void)
 
 /*
@@ -11,16 +11,16 @@ int main()
 	print_alphabet();
 	return (0);
 }
-void print_alphabet(void)void print_alphabet(void)
+
 void print_alphabet(void)
 {
         char i;
 
         for (i = 'a';i<='z';i++)
         {
-                putchar(i);
+                _putchar(i);
 
         }
 
-        putchar(\n);
+        _putchar("\n");
 }
