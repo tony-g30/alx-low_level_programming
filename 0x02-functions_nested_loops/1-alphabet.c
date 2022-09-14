@@ -1,17 +1,9 @@
-#include <stdio.h>
-void print_alphabet(void)
-
+#include <main.h>
 /*
  * main - calls the function to excute
  *print_alphabet - prints alphabet in lowercase
  *return -always successful
  */
-int main()
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
         char i;
