@@ -1,9 +1,3 @@
-#include "main.h"
-/*
- * main - calls the function to excute
- *print_alphabet - prints alphabet in lowercase
- *return -always successful
- */
 void print_alphabet(void)
 {
         char i;
@@ -15,4 +9,5 @@ void print_alphabet(void)
         }
 
         _putchar("\n");
+	return (void);
 }
