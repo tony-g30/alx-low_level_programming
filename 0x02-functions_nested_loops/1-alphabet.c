@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /*
  * main - calls the function to excute
  *print_alphabet - prints alphabet in lowercase
