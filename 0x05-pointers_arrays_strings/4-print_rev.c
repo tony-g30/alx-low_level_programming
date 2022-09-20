@@ -3,7 +3,7 @@
 #include<string.h>
 /**
  *print_rev -> prints string in reverse
- *
+ *@s: points to character string str
  */
 void print_rev(char *s)
 {
@@ -13,7 +13,7 @@ void print_rev(char *s)
 	{
 		c++;
 	}
-	for (c = c-1; c >= 0; c--)
+	for (c = c - 1; c >= 0; c--)
 	{
 		putchar(s[c]);
 	}
