@@ -14,5 +14,13 @@ void print_array(int *a, int n)
 	int *ar = a;
 
 	for (; c < len; c++)
-		printf("%d, ", ar[c]);
+	{
+		printf("%d", ar[c]);
+
+		if (c != len -1)
+		{
+			printf(", ");
+		}
+	}
+	printf("\n");
 }
