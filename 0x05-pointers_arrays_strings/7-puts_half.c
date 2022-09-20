@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  *puts_half - prints last half of string
  *@str: the string to be printed
@@ -8,7 +9,7 @@
  */
 void puts_half(char *str)
 {
-	int n, a, b;
+	int n, a;
 
 	n = 0;
 	while (str[n] != '\0')
