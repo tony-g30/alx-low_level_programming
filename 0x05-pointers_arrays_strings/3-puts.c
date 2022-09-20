@@ -1,6 +1,7 @@
 #include "main.h"
 #include<stdio.h>
 /**
+ * @str: points to character string
  *_puts -> prints string
  *return: always 0
  */
