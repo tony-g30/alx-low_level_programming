@@ -1,9 +1,10 @@
 #include "main.h"
 #include<stdio.h>
 /**
-*cap_string
-*
-*
+*function that capitalises all words in a given string
+*cap_string - function that capitalises all words in a string
+*Return: character value
+*@s: pointer to str
 *
 */
 char *cap_string(char *s)
@@ -14,7 +15,7 @@ char *cap_string(char *s)
 	while (s[a])
 	{
 		i = 0;
-		
+
 		while (i < cspc)
 		{
 			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
