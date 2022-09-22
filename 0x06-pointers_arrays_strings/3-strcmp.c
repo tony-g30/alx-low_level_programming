@@ -11,12 +11,16 @@ int _strcmp(char *s1, char *s2)
 
 	while (s1[a])
 		a++;
-	while (s1[b])
+
+	while (s2[b])
 		b++;
+
 	if (a <= b)
 		l = a;
+
 	else
 		l = b;
+
 	while (c <= l)
 	{
 		if (s1[c] == s2[c])
