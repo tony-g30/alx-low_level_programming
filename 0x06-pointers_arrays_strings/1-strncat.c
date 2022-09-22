@@ -4,7 +4,7 @@
 *@dest: first parameter
 *@src: second parameter
 *@n: number of bytes of src to be appended to dest
-**return: a pointer to resulting dest string
+*Return: a string
 */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -20,4 +20,4 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest[dlen + n + 1] = '\0';
 	return (dest);
-}	
+}
