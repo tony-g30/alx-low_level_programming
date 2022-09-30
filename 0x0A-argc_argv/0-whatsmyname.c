@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*Main -> this is the main function that prints the program name
+*main -> this is a function to print the program name
 *@argc: represents no. of arguments
-*@argv: coontains array of the arguments
+*@argv: contains array of the arguments
 *Return: returns 0 if successful
 */
 int main(int argc __attribute__((unused)), char *argv[])
