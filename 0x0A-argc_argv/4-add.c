@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 /**
 *main -> this is a function to print the result of addition operation
 *@argc: represents no. of arguments
@@ -24,7 +25,7 @@ int main(int argc, char *argv)
 			}
 		}
 	}
-	for (k = 0; k < argc; k++)
+	for (k = 1; k < argc; k++)
 	{
 		num = atoi(argv[k]);
 		res += num;
